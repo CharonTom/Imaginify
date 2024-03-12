@@ -52,7 +52,6 @@ export async function POST(req: Request) {
       status: 400,
     });
   }
-  console.log(evt);
 
   // Get the ID and type
   const { id } = evt.data;
